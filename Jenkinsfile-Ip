@@ -6,7 +6,7 @@ pipeline {
   string(name: 'TOMCAT_DEV_IP', defaultValue:'http://192.168.1.94:8090',
   description:'Staging Server : 8080')
   string(name: 'TOMCAT_PROD_IP',
-  defaultValue:'http://localhost:9090',description:'Production Server: 9090')
+  defaultValue:'http://192.168.1.94:9090',description:'Production Server: 9090')
   }
 
   triggers {
